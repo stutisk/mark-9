@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body{
+  background-color:rgb(208, 230, 143);
+  
+}
+
+body {
+  max-width: 40rem;
+  margin: 2rem auto;
+}
+.block{
+  background-color: rgb(124, 201, 110);
+  border: 2px solid;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  margin-top: 0.7rem;
+  padding: 0.7rem;
+  position: relative;
+}
+
+.button:active{
+  background-color: green;
+}
+
+
+h1{
+color: green;
+font-size: 3rem
+}
+
+h4{
+  color:rgb(74, 141, 58);
+  font-size:2rem
+}
+button{
+  padding: 0.5rem;
+  width: 8rem;
+  border-top-right-radius: 1rem;
+  font-size: 1rem;
+  margin: 2rem;
+  background-color: rgb(242, 249, 242);
+  cursor: pointer;
+  
+}
+button:hover{
+  background-color:green;
+  font-size: 2rem;
+
+
+}
